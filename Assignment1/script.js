@@ -290,7 +290,7 @@ function setupPlaceOrder() {
     alert(" Your order has been placed successfully!");
     localStorage.removeItem("cartItems");
     localStorage.removeItem("orderData");
-    setTimeout(() => (window.location.href = "../Assignment1/index.html"), 500);
+    setTimeout(() => (window.location.href = "./index.html"), 500);
   });
 }
 
