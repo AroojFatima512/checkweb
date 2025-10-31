@@ -1,4 +1,3 @@
-
 $(document).ready(function () {
   const form = $(".needs-validation");
 
@@ -106,7 +105,7 @@ $(document).ready(function () {
     };
 
     localStorage.setItem("orderData", JSON.stringify(orderData));
-    window.location.href = "payment.html";
+    window.location.href = "../Assignment2/payment.html";
   });
 
   // Enable/disable payment button

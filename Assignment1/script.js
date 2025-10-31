@@ -186,7 +186,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     localStorage.setItem("orderData", JSON.stringify(orderData));
 
-    // Redirect to payment page
     window.location.href = "../Assignment2/payment.html";
   });
 });
